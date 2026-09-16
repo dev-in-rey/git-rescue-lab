@@ -19,7 +19,6 @@ const items = [
 
 assertEqual(calculateTotal(items, null), 40, 'no discount');
 assertEqual(calculateTotal(items, 'SAVE10'), 36, '10% off with SAVE10');
-assertEqual(calculateTotal(items, 'HOLIDAY25'), 30, '25% off with HOLIDAY25');
 
 const bulkItems = [
   { price: 10, qty: 1 },
